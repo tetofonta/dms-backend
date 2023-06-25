@@ -1,0 +1,13 @@
+database:
+  host: 127.0.0.1
+  port: 5432
+  logging: true
+  synchronize: true
+  username: dms
+  database: dms
+  cache:
+    type: redis
+    duration: 60000
+    options:
+      host: localhost
+      port: 6379

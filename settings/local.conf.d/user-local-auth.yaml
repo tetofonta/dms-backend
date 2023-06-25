@@ -1,0 +1,4 @@
+user-local-auth:
+  createUser: true
+  featuresFile: "./settings/local.conf.d/password_permissions.yaml"
+

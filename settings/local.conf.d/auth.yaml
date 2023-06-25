@@ -1,0 +1,10 @@
+auth:
+  jwt:
+    publicKey: secret
+    verifyOptions:
+      algorithms: ['ES256']
+      issuer: ['dms']
+    signOptions:
+      algorithm: 'ES256'
+      expiresIn: 1h
+      issuer: dms
